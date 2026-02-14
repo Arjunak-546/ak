@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff4d7d" />
+    <title>Will you be my Valentine?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg" aria-hidden="true"></div>
+
+    <main class="wrap">
+      <section class="card" aria-live="polite" id="card">
+        <header class="header">
+          <h1 class="title" id="title">Will you be my Valentine?</h1>
+        </header>
+
+        <div class="heart" aria-hidden="true" id="heart">
+          <img id="memeImage" class="meme-image" src="" alt="" />
+          <div class="heart__pulse"></div>
+          <div class="heart__shape"></div>
+        </div>
+
+        <div class="controls">
+          <div class="buttons">
+            <button id="yesBtn" class="btn btn--yes" type="button">
+              Yes
+            </button>
+            <button id="noBtn" class="btn btn--no" type="button">
+              No
+            </button>
+          </div>
+
+          <p class="hint" id="hint"></p>
+          <div id="gif-output" class="gif-output" aria-live="polite"></div>
+        </div>
+
+        <footer class="footer">
+          <button id="resetBtn" class="link" type="button" hidden>
+            Reset
+          </button>
+          <span class="tiny">Made by 6jun🫣.</span>
+        </footer>
+      </section>
+    </main>
+
+    <canvas id="confetti" class="confetti" aria-hidden="true"></canvas>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
+
+
