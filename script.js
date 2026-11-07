@@ -264,7 +264,7 @@
     celebration.innerHTML = `
       <p class="celebration__text">Good girl🥰💕</p>
       <p class="celebration__subtext">now you're my girl😎😏</p>
-      <p class="celebration__subtext">😚😚😚🫣🫣😘😘💏</p>
+      <p class="celebration__subtext">🫣🫣😘😘</p>
     `;
     
     const controls = document.querySelector(".controls");
